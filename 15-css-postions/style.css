@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
+.main{
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.header {
+    background-color: blueviolet;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+.header a{
+    color: aliceblue;
+    margin: 10px;
+}
+.test{
+    background-color: blanchedalmond;
+    width: 120px;
+    height: 190px;
+    position: relative;
+}
+.t{
+    position: absolute;
+    top: -30px;
+}

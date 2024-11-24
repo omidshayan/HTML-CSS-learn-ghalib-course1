@@ -1,0 +1,30 @@
+.main{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: relative;
+}
+.a{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: aqua;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid black;
+    transition: 1s;
+}
+.a:hover{
+    background-color: red;
+    color: aliceblue;
+}
+.input{
+    width: 30px;
+    outline: none;
+    transition: 0.5s;
+}
+.input:focus{
+    border: 2px solid red;
+    width: 120px;
+}

@@ -33,3 +33,9 @@ tbody tr:hover{
 .ul li:nth-child(odd){
     background-color: blue;
 }
+.color-red{
+    color: red;
+}
+.color-green{
+    color: green;
+}

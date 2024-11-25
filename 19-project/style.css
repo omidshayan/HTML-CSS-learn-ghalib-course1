@@ -1,0 +1,45 @@
+body{
+    background-image: url('1.jpg');
+}
+.logo{
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.form{
+    background-color: aquamarine;
+    height: 300px;
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(80, 78, 78);
+    text-align: center;
+}
+.form img{
+    width: 40px;
+    margin-bottom: 10px;
+}
+.lable{
+    text-align: left;
+    margin: 12px 0 6px 12px;
+}
+.submit{
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.form input{
+    outline: none;
+    padding: 3px;
+    border-radius: 5px;
+    color: rgb(14, 119, 211);
+}
+.submit:hover{
+    background-color: bisque;
+    cursor: pointer;
+}

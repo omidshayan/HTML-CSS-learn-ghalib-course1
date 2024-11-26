@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    background-color: rgb(44, 104, 255);
+    height: 40px;
+    position: relative;
+}
+.nav{
+    height: 40px;
+    width: 50%;
+    background-color: red;
+}
+.menu li{
+    margin-top: 10px;
+    display: fle;
+    margin-left: 15px;
+}
+.menu li a{
+    color: aliceblue;  
+    padding: 3px 7px;
+}
+.menu li a:hover{
+    background-color: red;
+}
+.logo{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    display: inline-block;
+    height: 40px;
+    width: 25%;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

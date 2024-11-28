@@ -1,0 +1,13 @@
+.main{
+    background-color: red !important;
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+    display: flex;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 5px;
+}

@@ -1,0 +1,14 @@
+.items{
+    background-color: aqua;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+.item{
+    background-color: bisque;
+
+}
+.grow:hover{
+    display: flex;
+    flex-grow: 1;
+}

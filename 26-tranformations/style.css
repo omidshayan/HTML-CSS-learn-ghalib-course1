@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.card{
+    background-color: rgb(180, 128, 233);
+    width: 130px;
+    height: 170px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: fixed;
+    top: 100px;
+    left: -105px;
+    transition: 0.5s;
+}
+.text{
+    color: aliceblue;
+    writing-mode: vertical-lr;
+}
+.card:hover{
+    transform: translateX(105px);
+    cursor: pointer;
+}

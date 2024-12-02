@@ -1,0 +1,7 @@
+.main{
+    white-space: nowrap;
+    width: 80px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}

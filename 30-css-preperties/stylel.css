@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 300px;
+    width: 200px;
+    background-image: url(../19-project/1.jpg);
+    margin: 4px;
+    overflow: auto;
+}
+.scroll{
+    background-attachment: scroll;
+}
+.fix{
+    background-attachment: fixed;
+}
+.local{
+    background-attachment: local;
+}
+.test{
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
+}
+
+p{
+    white-space: pre-line;
+}

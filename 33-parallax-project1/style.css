@@ -1,0 +1,41 @@
+.progress{
+    background-color: rgb(245, 240, 234);
+    height: 40px;
+}
+.pro{
+    background-color: black;
+    width: 80%;
+    height: 100%;
+    color: aliceblue;
+    text-align: center;
+    line-height: 40px;
+}
+.about-me{
+   text-align: center; 
+}
+.h4{
+     font-style: italic;
+}
+.p{
+    line-height: 30px;
+    text-align: justify;
+}
+
+.my-name{
+    height: 400px;
+    display: flex;
+}
+.name-photo{
+    height: 200px;
+    width: 50%;
+}
+.name-desc{
+    height: 200px;
+    width: 50%;
+}
+.name-photo{
+    text-align: center;
+}
+.name-photo img{
+    width: 250px;
+}

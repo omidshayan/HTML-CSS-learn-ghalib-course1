@@ -1,4 +1,4 @@
-p{
+p {
     color: red;
     background-color: aquamarine;
     width: 100px;
@@ -8,7 +8,8 @@ p{
     transition: 0.5s;
     border: 1px solid black;
 }
-p:hover{
+
+p:hover {
     background-color: black;
     color: aqua;
     cursor: pointer;
@@ -16,15 +17,17 @@ p:hover{
 }
 
 
-p::after{
+p::after {
     content: 'test';
     font-size: 25px;
     color: black;
 }
-p::before{
+
+p::before {
     content: 'name';
 }
-p::first-letter{
+
+p::first-letter {
     font-size: 30px;
     color: blue;
 }

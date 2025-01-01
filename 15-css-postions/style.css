@@ -1,7 +1,8 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-.main{
+
+.main {
     background-color: red;
     padding: 10px;
     border-radius: 50%;
@@ -17,17 +18,20 @@ html{
     position: sticky;
     top: 0;
 }
-.header a{
+
+.header a {
     color: aliceblue;
     margin: 10px;
 }
-.test{
+
+.test {
     background-color: blanchedalmond;
     width: 120px;
     height: 190px;
     position: relative;
 }
-.t{
+
+.t {
     position: absolute;
     top: -30px;
 }

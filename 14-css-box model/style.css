@@ -4,32 +4,34 @@
     src: url('font/Vazir.otf');
     src: url('font/Vazir.woff');
 }
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'vazir';
 
 }
-.main1{
+
+.main1 {
     background-color: rgb(113, 113, 113);
     padding: 10px 30px;
     font-weight: bold;
     color: aliceblue;
 }
 
-.main2{
+.main2 {
     background-color: rgb(113, 113, 113);
     padding: 10px 30px;
     color: aliceblue;
 }
 
-.span{
+.span {
     background-color: blue;
     color: aliceblue;
     width: 150px;
     display: inline-block;
 }
-

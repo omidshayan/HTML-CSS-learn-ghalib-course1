@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            
+            transition: 0.5s;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .header{
+            height: 40px;
+            background-color: antiquewhite;
+        }
+        .ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 3px;
+        }
+        .ul li{
+            margin: 5px;
+        }
+        .section{
+            height: calc(100vh - 40px);
+            background-color: aquamarine;
+        }
+        .content{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="header"  id="home">
+        <ul class="ul">
+            <li><a href="#home">home</a></li>
+            <li><a href="#content">content</a></li>
+            <li><a href="#about">about</a></li>
+        </ul>
+    </div>
+    <div class="section home">
+        <h2>home page</h2>
+        <p>this is home page</p>
+    </div>
+    <div class="section content" id="content">
+        <h2>content page</h2>
+        <p>this is content page</p>
+    </div>
+    <div class="section about" id="about">
+        <h2>about page</h2>
+        <p>this is about page</p>
+    </div>
+</body>
+</html>

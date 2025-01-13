@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    height: 40px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: red;
+}
+.menu{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.menu li a{
+    margin: 10px;
+    color: rgb(4, 4, 11);
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.section{
+    padding-top: 100px;
+    background-color: aqua;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.content{
+    background-color: bisque;
+    height: 100vh;
+}
+.about{
+    background-color: blueviolet;
+    height: 100vh;
+}
+.about-me-img{
+    
+}
+.about-me-img img{
+
+    width: 120px;
+} 
+
+.about-me{
+    display: flex;
+}

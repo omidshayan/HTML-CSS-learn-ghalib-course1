@@ -1,0 +1,24 @@
+:root
+{
+    --main-color: rgb(235, 47, 0);
+}
+
+
+
+
+
+
+
+
+h1{
+    color: var(--main-color);
+}
+.p{
+    color: var(--main-color);
+}
+h2{
+    color: blue;
+}
+h3{
+    color: var(--main-color);
+}

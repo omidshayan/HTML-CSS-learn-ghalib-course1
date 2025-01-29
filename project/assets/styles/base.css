@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --main-color: #fff;
+    --main-color: #fff;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+.flex-justify-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m-auto{
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.d-none{
+    display: none;
+}
+
+
+/* colors */
+.bg-green{
+    background-color: green;
+}

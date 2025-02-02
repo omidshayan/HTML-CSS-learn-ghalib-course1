@@ -36,12 +36,23 @@
     transition: 0.2s;
 }
 
+.active{
+    left: 0 !important;
+}
+.menu-icon-close{
+    display: none;
+}
 
 
 
-
-
-
+.close-menu{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.close-menu{
+    
+}
 
 
 /* queris */
@@ -54,6 +65,10 @@
         left: -200px;
         width: 200px;
         bottom: 0;
+
+    }
+    .menu-icon-close{
+        display: block;
     }
     .menu li{
         margin: 20px;
@@ -61,4 +76,5 @@
     .icon-bar{
         display: block;
     }
+    
 }

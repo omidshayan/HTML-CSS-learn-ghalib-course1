@@ -37,3 +37,14 @@
 .bg-green{
     background-color: green;
 }
+.color-red{
+    color: red;
+}
+
+.cursor-p{
+    cursor: pointer;
+}
+
+.w100{
+    width: 100%;
+}

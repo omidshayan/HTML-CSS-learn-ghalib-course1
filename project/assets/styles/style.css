@@ -1,3 +1,17 @@
+body
+{
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .header{
     background-image: url('../img/header/main.png');
     background-size: cover;
@@ -44,15 +58,38 @@
 }
 
 
-
 .close-menu{
     position: absolute;
     top: 20px;
     right: 20px;
 }
-.close-menu{
-    
+
+/* header inputs style */
+.header-input-text{
+    height: 25px;
+    background-color: #384170;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    padding: 4px;
 }
+.header-select{
+    height: 25px;
+    background-color: #384170;
+    border: none;
+    color: aliceblue;
+}
+.header-btn{
+    background-color: #93A5FF;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+
+
 
 
 /* queris */
@@ -76,5 +113,10 @@
     .icon-bar{
         display: block;
     }
-    
+    .header-data{
+        order: 2;
+    }
+    .header-img{
+        order: 1;
+    }
 }

@@ -1,13 +1,25 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazir.ttf');
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.woff');
+}
+@font-face {
+    font-family: 'nastaliq';
+    src: url('../fonts/IranNastaliq.ttf');
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'vazir';
 }
 :root{
-    --main-color: #fff;
-    --main-color: #fff;
+    --btn-bg{
+        background-color: #c0c8ef;
+    }
 }
 .container {
     width: 90%;
@@ -32,7 +44,9 @@
     display: none;
 }
 
-
+.bg{
+    background-color: red;
+}
 /* colors */
 .bg-green{
     background-color: green;
@@ -40,6 +54,10 @@
 .color-red{
     color: red;
 }
+.color-w{
+    color: #fff;
+}
+
 
 .cursor-p{
     cursor: pointer;
@@ -47,4 +65,12 @@
 
 .w100{
     width: 100%;
+}
+
+/* margin */
+.mt20{
+    margin-top: 20px;
+}
+.mt50{
+    margin-top: 50px;
 }

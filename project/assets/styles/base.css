@@ -4,11 +4,13 @@
     src: url('../fonts/Vazir.eot');
     src: url('../fonts/Vazir.woff');
 }
+
 @font-face {
     font-family: 'nastaliq';
     src: url('../fonts/IranNastaliq.ttf');
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,61 +18,89 @@
     list-style: none;
     font-family: 'vazir';
 }
-:root{
-    --btn-bg{
-        background-color: #c0c8ef;
+
+body {
+    animation: fadeInAnimation ease 0.4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
+
+:root {
+    --main: #384170;
+    --text-color: #cecece;
+    --hover: #384170;
+
+}
+
 .container {
     width: 90%;
     margin: 0 auto;
 }
 
-.text-center{
-    text-align: center;
+/* display */
+.d-flex {
+    display: flex;
 }
-.flex-justify-align{
+
+.d-none {
+    display: none;
+}
+
+.flex-justify-align {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.m-auto{
-    margin: 0 auto;
-}
-.d-flex{
-    display: flex;
-}
-.d-none{
-    display: none;
-}
 
-.bg{
+/* colors */
+.bg {
     background-color: red;
 }
-/* colors */
-.bg-green{
+
+.bg-green {
     background-color: green;
 }
-.color-red{
+
+.color-red {
     color: red;
 }
-.color-w{
+
+.color-w {
     color: #fff;
 }
 
+/* padding & margin */
+.mt20 {
+    margin-top: 20px;
+}
 
-.cursor-p{
+.mt50 {
+    margin-top: 50px;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+/* utiliti */
+.text-center {
+    text-align: center;
+}
+
+.cursor-p {
     cursor: pointer;
 }
 
-.w100{
+.w100 {
     width: 100%;
-}
-
-/* margin */
-.mt20{
-    margin-top: 20px;
-}
-.mt50{
-    margin-top: 50px;
 }

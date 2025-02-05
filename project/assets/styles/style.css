@@ -97,10 +97,25 @@
     display: flex;
     gap: 1px;
 }
-
-
-
 /* end header */
+
+
+/* start comment body  */
+.comment-body{
+    display: flex;
+}
+.comment-name{
+    font-weight: bold;
+}
+
+/* owl */
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots  span{
+    background-color: red;
+}
+
+/* end comment body  */
+
+
 
 /* queris */
 @media(max-width:992px) {

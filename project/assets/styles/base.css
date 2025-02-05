@@ -78,7 +78,9 @@ body {
 .color-w {
     color: #fff;
 }
-
+.color-star{
+    color: #FAD56B;
+}
 /* padding & margin */
 .mt20 {
     margin-top: 20px;
@@ -101,6 +103,10 @@ body {
     cursor: pointer;
 }
 
+/* width */
+.w100p{
+    width: 100px !important;
+}
 .w100 {
     width: 100%;
 }

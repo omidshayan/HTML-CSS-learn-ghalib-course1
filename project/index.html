@@ -1,65 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Site Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/styles/base.css">
-    <link rel="stylesheet" href="assets/styles/grid.css">
-    <link rel="stylesheet" href="assets/styles/style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/styles/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/styles/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/styles/base.css" />
+    <link rel="stylesheet" href="assets/styles/grid.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body>
     <!-- start header -->
     <header class="header">
+      <!-- start home container -->
+      <div class="container">
+        <div class="overlay"></div>
 
-        <!-- start home container -->
-        <div class="container">
-            <div class="overlay"></div>
+        <!-- start menu -->
+        <nav class="nav">
+          <img src="assets/img/header/logo.png" alt="" />
+          <div class="fa fa-bars icon-bar cursor-p"></div>
+          <ul class="menu">
+            <div class="icon-bar fa fa-times close-menu cursor-p"></div>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Content</a></li>
+            <li><a href="">Simple</a></li>
+          </ul>
+        </nav>
+        <!-- end menu -->
 
-            <!-- start menu -->
-            <nav class="nav">
-                <img src="assets/img/header/logo.png" alt="">
-                <div class="fa fa-bars icon-bar cursor-p"></div>
-                <ul class="menu">
-                    <div class="icon-bar fa fa-times close-menu cursor-p"></div>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Content</a></li>
-                    <li><a href="">Simple</a></li>
-                </ul>  
-            </nav>
-            <!-- end menu -->
-
-            <!-- start home -->
-            <div class="row mt50">
-                <div class="col-12 col-md-6 header-data">
-                    <h1 class="color-w">Web Hosting Easy and Secure</h1>
-                    <p class="color-w">Full control of what you use and pay for</p>
-                    <div class="header-inputs mt20">
-                        <div class="input-header-group">
-                            <input class="header-input-text" type="text" placeholder="enter name...">
-                            <select class="header-select">
-                                <option>.com</option>
-                                <option>.net</option>
-                                <option>.org</option>
-                                <option>.af</option>
-                            </select>
-                        </div>
-                        <input class="header-btn" type="submit" value="CHECK AVAILABILITY">
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 header-img">
-                    <img src="assets/img/header/photo-header.png" alt="header" class="w100">
-                </div>
+        <!-- start home -->
+        <div class="row mt50">
+          <div class="col-12 col-md-6 header-data">
+            <h1 class="color-w">Web Hosting Easy and Secure</h1>
+            <p class="color-w">Full control of what you use and pay for</p>
+            <div class="header-inputs mt20">
+              <div class="input-header-group">
+                <input
+                  class="header-input-text"
+                  type="text"
+                  placeholder="enter name..."
+                />
+                <select class="header-select">
+                  <option>.com</option>
+                  <option>.net</option>
+                  <option>.org</option>
+                  <option>.af</option>
+                </select>
+              </div>
+              <input
+                class="header-btn"
+                type="submit"
+                value="CHECK AVAILABILITY"
+              />
             </div>
-            <!-- end home -->
-
+          </div>
+          <div class="col-12 col-md-6 header-img">
+            <img
+              src="assets/img/header/photo-header.png"
+              alt="header"
+              class="w100"
+            />
+          </div>
         </div>
-        <!-- end home container -->
-         
+        <!-- end home -->
+      </div>
+      <!-- end home container -->
     </header>
     <!-- end header -->
+
+    <div class="comments">
+      <div class="container">
+        <h2 class="comment-title text-center">this is title</h2>
+        <p class="comment-desc text-center">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic sed
+        </p>
+
+        <div class="row owl-carousel owl-theme">
+          <div class="col-6">
+            <div class="comment-body mt50">
+              <div class="comment-img">
+                <img src="assets/img/user.png" alt="" class="w100p" />
+              </div>
+
+              <div class="comment-content">
+                <div class="rating">
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                </div>
+                <div class="comment-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Libero illum velit accusamus quisquam, aliquid consequatur
+                  unde nisi molestias deserunt quos quam, magni dicta laborum
+                  dolor vero provident, at ipsum natus.
+                </div>
+                <div class="comment-name">- Erich Marks</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="comment-body mt50">
+              <div class="comment-img">
+                <img src="assets/img/user.png" alt="" class="w100p" />
+              </div>
+
+              <div class="comment-content">
+                <div class="rating">
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                </div>
+                <div class="comment-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Libero illum velit accusamus quisquam, aliquid consequatur
+                  unde nisi molestias deserunt quos quam, magni dicta laborum
+                  dolor vero provident, at ipsum natus.
+                </div>
+                <div class="comment-name">- Erich Marks</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="comment-body mt50">
+              <div class="comment-img">
+                <img src="assets/img/user.png" alt="" class="w100p" />
+              </div>
+
+              <div class="comment-content">
+                <div class="rating">
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                </div>
+                <div class="comment-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Libero illum velit accusamus quisquam, aliquid consequatur
+                  unde nisi molestias deserunt quos quam, magni dicta laborum
+                  dolor vero provident, at ipsum natus.
+                </div>
+                <div class="comment-name">- Erich Marks</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="comment-body mt50">
+              <div class="comment-img">
+                <img src="assets/img/user.png" alt="" class="w100p" />
+              </div>
+
+              <div class="comment-content">
+                <div class="rating">
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                </div>
+                <div class="comment-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Libero illum velit accusamus quisquam, aliquid consequatur
+                  unde nisi molestias deserunt quos quam, magni dicta laborum
+                  dolor vero provident, at ipsum natus.
+                </div>
+                <div class="comment-name">- Erich Marks</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="comment-body mt50">
+              <div class="comment-img">
+                <img src="assets/img/user.png" alt="" class="w100p" />
+              </div>
+
+              <div class="comment-content">
+                <div class="rating">
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                </div>
+                <div class="comment-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Libero illum velit accusamus quisquam, aliquid consequatur
+                  unde nisi molestias deserunt quos quam, magni dicta laborum
+                  dolor vero provident, at ipsum natus.
+                </div>
+                <div class="comment-name">- Erich Marks</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="comment-body mt50">
+              <div class="comment-img">
+                <img src="assets/img/user.png" alt="" class="w100p" />
+              </div>
+
+              <div class="comment-content">
+                <div class="rating">
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                </div>
+                <div class="comment-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Libero illum velit accusamus quisquam, aliquid consequatur
+                  unde nisi molestias deserunt quos quam, magni dicta laborum
+                  dolor vero provident, at ipsum natus.
+                </div>
+                <div class="comment-name">- Erich Marks</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="comment-body mt50">
+              <div class="comment-img">
+                <img src="assets/img/user.png" alt="" class="w100p" />
+              </div>
+
+              <div class="comment-content">
+                <div class="rating">
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                </div>
+                <div class="comment-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Libero illum velit accusamus quisquam, aliquid consequatur
+                  unde nisi molestias deserunt quos quam, magni dicta laborum
+                  dolor vero provident, at ipsum natus.
+                </div>
+                <div class="comment-name">- Erich Marks</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="comment-body mt50">
+              <div class="comment-img">
+                <img src="assets/img/user.png" alt="" class="w100p" />
+              </div>
+
+              <div class="comment-content">
+                <div class="rating">
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                  <i class="fa fa-star color-star"></i>
+                </div>
+                <div class="comment-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Libero illum velit accusamus quisquam, aliquid consequatur
+                  unde nisi molestias deserunt quos quam, magni dicta laborum
+                  dolor vero provident, at ipsum natus.
+                </div>
+                <div class="comment-name">- Erich Marks</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/app.js"></script>
-</body>
+  </body>
 </html>

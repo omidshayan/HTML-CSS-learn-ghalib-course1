@@ -1,29 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        
-        .main h4, .span, .p{
-            color: red;
+        html{
+            scroll-behavior: smooth;
         }
+p::before {
+  content: "⭐ ";
+}
 
+p::after {
+  content: " 🔚";
+}
+
+p::first-letter {
+  font-size: 2rem;
+  color: blue;
+}
+
+p::selection {
+  background: yellow;
+}
+
+ul li::marker {
+  color: red;
+}
+
+thead tr{
+    background-color: red;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(201, 201, 247);
+}
+table{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid red;
+}
+tfoot td{
+    background-color: aqua;
+}
+span{
+    background-color: red;
+}
+div{
+    background-color: red;
+    padding: 10px;
+    position: sticky;
+    top:0;
+}
+div a{
+    margin: 10px;
+}
     </style>
-
-</head>
-<body>
-
-    <div class="main">
-        <h4>this is h4</h4>
-        <h4>this is h4</h4>
-        <h4>this is h4</h4>
+  </head>
+  <body>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima at enim iure nesciunt repudiandae aut ratione quasi quis deserunt, rem iste ab consequatur ducimus sequi, illo ipsum, minus hic maxime?</p>
+    <div>
+        <a href="">home</a>
+        <a href="">home</a>
+        <a href="">home</a>
+        <a href="">home</a>
     </div>
-
-    <span class="span">this is span</span>
-
-    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi at nemo veritatis deleniti facere veniam adipisci earum illo consectetur accusamus, amet pariatur quam ipsam unde libero nisi quo illum.</p>
-
-</body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima at enim iure nesciunt repudiandae aut ratione quasi quis deserunt, rem iste ab consequatur ducimus sequi, illo ipsum, minus hic maxime?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima at enim iure nesciunt repudiandae aut ratione quasi quis deserunt, rem iste ab consequatur ducimus sequi, illo ipsum, minus hic maxime?</p>
+    <p>سلام! این یک تست برای سودو المنت‌هاست.</p>
+    <p>سلام! این یک تست برای سودو المنت‌هاست.</p>
+    <p>سلام! این یک تست برای سودو المنت‌هاست.</p>
+    <p>سلام! این یک تست برای سودو المنت‌هاست.</p>
+    <p>سلام! این یک تست برای سودو المنت‌هاست.</p>
+    <p>سلام! این یک تست برای سودو المنت‌هاست.</p>
+    <p>سلام! این یک تست برای سودو المنت‌هاست.</p>
+    <p>سلام! این یک تست برای سودو المنت‌هاست.</p>
+    <p>سلام! این یک تست برای سودو المنت‌هاست.</p>
+    <p>سلام! این یک تست برای سودو المنت‌هاست.</p>
+    <ul>
+      <li>آیتم اول</li>
+      <li>آیتم دوم</li>
+    </ul>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>name</th>
+                <th>name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ali</td>
+                <td>ali</td>
+                <td>ali</td>
+            </tr>
+            <tr>
+                <td>ali</td>
+                <td>ali</td>
+                <td>ali</td>
+            </tr>
+            <tr>
+                <td>ali</td>
+                <td>ali</td>
+                <td>ali</td>
+            </tr>
+            <tr>
+                <td>ali</td>
+                <td>ali</td>
+                <td>ali</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="3">footer</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+    <a href="#"><span>bala</span></a>
+  </body>
 </html>

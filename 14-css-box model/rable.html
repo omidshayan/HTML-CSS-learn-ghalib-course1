@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 300px;
+            height: 150px;
+            border: 1px solid red;
+            text-align: center;
+        }
+        thead tr{
+            background-color: rgb(125, 125, 247);
+            color: aliceblue;
+        }
+        tbody tr{
+            background-color: aqua;
+        }
+        .btn{
+            background-color: red;
+            padding: 10px 20px;
+            color: aliceblue;
+            border-radius: 10px;
+            text-decoration: none;
+            border: 2px solid rgb(0, 23, 0);
+        }
+        .btn:hover{
+            background-color: blue;
+            border: 2px solid rgb(6, 255, 6);
+        }
+        tbody tr:nth-child(even){
+            background-color: red;
+        }
+        tbody tr:hover{
+            background-color: brown;
+        }
+        p::first-line{
+            font-size: 22px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+   name: <input type="text" placeholder="entar name...">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque eius reiciendis magni quam accusamus, aperiam aliquid aspernatur ducimus dolor laboriosam quos veritatis dolorem minima repellat placeat voluptate vero maxime unde!</p>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>last name</th>
+                <th>age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ali</td>
+                <td>ahmad</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>hasan</td>
+                <td>mohammad</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>kazem</td>
+                <td>ahmad</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>kazem</td>
+                <td>ahmad</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>kazem</td>
+                <td>ahmad</td>
+                <td>15</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- <a href="" class="btn">click me</a> -->
+</body>
+</html>

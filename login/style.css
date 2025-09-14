@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.register{
+    width: 250px;
+    height: 350px;
+    margin: 100px auto;
+    border: 1px solid  rgba(0, 149, 255, 0.792);
+    padding: 20px;
+    border-radius: 10px;
+    background-color:  rgba(0, 149, 255, 0.096);
+}
+h2{
+    text-align: center;
+}
+.register label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.register input{
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid rgba(0, 149, 255, 0.792);
+    transition: 0.4s;
+    padding: 4px;
+    color:  rgba(0, 149, 255, 0.792);
+}
+
+.register input[type='submit']{
+    padding: 10px;
+}
+
+.register input[type='submit']:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.register input[type='text']:focus,
+.register input[type='number']:focus,
+.register input[type='password']:focus{
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 149, 255, 0.792);
+}

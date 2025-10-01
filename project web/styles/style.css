@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* top header */
+.top-header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+}
+.top-header-logo img{
+    width: 60px;
+    border-radius: 50%;
+}
+
+/* top header menu */
+.top-menu{
+    height: 60px;
+    background-color: rgb(186, 186, 186);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.ul-li{
+    display: flex;
+    gap: 20px;
+}
+.search{
+padding: 5px;
+border-radius: 5px;
+border: none;
+}
+.search:focus{
+    border: 2px solid red;
+}
+
+/* section about */
+.about-title{
+    text-align: center;
+    margin: 10px;
+    font-size: 3rem;
+}
+.about{
+    width: 800px;
+    background-color: rgba(181, 181, 181, 0.466);
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.318);
+}
+.about img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.about img:hover{
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.318);
+    transform: scale(1.020);
+}
+
+
+/* services */
+.servic-title{
+    text-align: center;
+    margin: 10px;
+    font-size: 3rem;
+    margin-top: 50px;
+
+}
+.servic{
+    width: 800px;
+    background-color: rgba(181, 181, 181, 0.466);
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.318);
+}
+.servic img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.servic img:hover{
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.318);
+    transform: scale(1.020);
+}
+
+/* footer */
+.footer
+{
+    height: 300px;
+    margin-top: 50px;
+    background-color: rgb(182, 182, 182);
+}
+
+
+/* to top */
+.to-top{
+    width: 30px;
+    height: 30px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
